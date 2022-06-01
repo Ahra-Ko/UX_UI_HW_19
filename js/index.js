@@ -1,5 +1,6 @@
 console.log("Your index.js file is loaded correctly!");
 
-$("button").hover(function(){
-    $(this).css("background-color", "yellow");
-});
+function fade() {
+    $('.preloader').fadeOut("slow");
+    }
+    setTimeout(fade, 1000);
