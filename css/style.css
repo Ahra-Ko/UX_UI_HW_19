@@ -33,8 +33,8 @@
   .Hero h1 {
       padding-top: 50px;
       padding-bottom: 20px;
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 40px;
+      font-family: 'Lobster', cursive;
+      font-size: 50px;
       text-align: center;
   }
 
@@ -47,7 +47,7 @@
 
   .Project h3 {
       text-align: center;
-      font-size: 20px;
+      font-size: 30px;
   }
 
   .Project1 {
@@ -97,17 +97,26 @@
     opacity: 0.5;
 }
 
+.logo {
+    background-color: #edf6f9;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
 .Logo h3 {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .Logo h4 {
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
 }
 
 .logoImg {
@@ -130,4 +139,43 @@ footer li {
 
 .FooterTitle {
     font-weight: 700;
+}
+
+.button {
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: black;
+    border: none;
+    position: absolute;
+    top: 65%;
+    left: 32.1%;
+}
+
+.linkedin {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-left: 48.5%;
+    background-image:url(../images/Illustration-of-Linkedin-icon-on-transparent-background-PNG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.instagram {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-left: 48.5%;
+    background-image:url(../images/Glossy-Instagram-logo-PNG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
 }
